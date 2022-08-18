@@ -1,0 +1,2 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("graphics", "axis", "barplot", "legend", "lines", "plot")
