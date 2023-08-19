@@ -9,13 +9,6 @@ Frequency Matrix Approach for Assessing Very Low Frequency Variants in Sequence 
 Using frequency matrices, very low frequency variants (VLFs) are assessed for amino acid and nucleotide sequences.  The VLFs are then compared to see if they occur in only one member of a species, singleton VLFs, or if they occur in multiple members of a species, shared VLFs.  The amino acid and nucleotide VLFs are then compared to see if they are concordant with one another.  Amino acid VLFs are also assessed to determine if they lead to a change in amino acid residue type, and potential changes to protein structures.
 }
 \details{
-\tabular{ll}{
-Package: \tab VLF\cr
-Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2013-10-25\cr
-License: \tab GPL (>=3)\cr
-}
 vlfFun()
 aminoAcidFun()
 concordanceFun()
