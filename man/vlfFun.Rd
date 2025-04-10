@@ -33,7 +33,7 @@ If the user wants to compare their own sequences separate from reference sequenc
 \item{ownSpecCount}{A vector containing the number of VLFs for each specimen in the users own specified dataset.  Only appears if own is not NULL.}
 \item{ownPosCount}{A vector containing the number of VLFs for each position in the sequences of the users own specified dataset.  Only appears if own is not NULL.}
 \item{ownVLFMatrix}{A matrix containing only those nucleotides at the positions that contain VLFs and NAs in all other positions of the sequence.  Only appears if own is not NULL.}
-\item{ownVLFreduced}{ownVLFMatrix}{A matrix containing only those specimen that have VLFs as well as the nucleotides at the positions that contain VLFs and NAs in all other positions of the sequence.  Only appears if own is not NULL.}
+\item{ownVLFreduced}{A matrix containing only those specimen that have VLFs as well as the nucleotides at the positions that contain VLFs and NAs in all other positions of the sequence.  Only appears if own is not NULL.}
 }
 \author{
 Taryn B. T. Athey and Paul D. McNicholas
